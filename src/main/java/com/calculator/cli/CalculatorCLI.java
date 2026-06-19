@@ -39,8 +39,9 @@ public class CalculatorCLI {
 
         while (true) {
             // Display current result formatted to 6 decimal places
-            System.out.printf("Current Result: %f%n", calculator.getResult());
+            System.out.printf("Current Result: %s%n", calculator.getResult().toPlainString());
             System.out.println("Please enter a command (e.g., + 5, - 3, * 2, / 4, undo, redo, clear, exit):");
+            System.out.print("> ");
 
             if (!scanner.hasNextLine()) {
                 break;
