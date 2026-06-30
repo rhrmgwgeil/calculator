@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CalculatorApp",
+            "request": "launch",
+            "mainClass": "com.calculator.CalculatorApp",
+            "projectName": "calculator"
+        }
+    ]
+}
